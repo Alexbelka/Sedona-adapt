@@ -1,0 +1,40 @@
+.features{
+  min-height: 416px;
+  background-color: rgb(255,255,255);
+}
+
+.features__item{
+  text-align: left;
+  list-style: none;
+}
+
+.features__item h3{
+  margin-top: 41px;
+  display: inline-block;
+}
+
+.features__item p{
+  margin-top: 25px;
+}
+
+
+@media(min-width:768px){
+  .features{
+  min-height: 330px;
+  }
+
+  .features__item h3{
+  display: block;
+  }
+
+  .features__menu{
+    display:flex;
+    flex-direction: row;
+  }
+  .features__item{
+    text-align: center;
+    min-height: 330px;
+    width:33%;
+  }
+
+}

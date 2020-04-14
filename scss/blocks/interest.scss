@@ -1,0 +1,34 @@
+.interest{
+  min-height: 286px;
+  background-color: rgb(255,255,255);
+  text-align: center;
+  box-sizing: border-box;
+  padding:33px 20px 49px 20px;
+}
+
+.interest__state{
+  font-size:21px;
+  line-height: 26px;
+}
+
+.interest p{
+  margin-top:26px;
+}
+
+.interest__button{
+  width: 280px;
+  background-color: rgb(129,179,210);
+  font-size:21px;
+  line-height: 26px;
+  font-weight:bold;
+  color:rgb(255,255,255);
+  padding:17px 47px 19px 47px;
+  margin-top: 20px;
+}
+
+@media(min-width:768px){
+  .interest {
+    padding-left: 155px;
+    padding-right: 155px;
+  }
+}

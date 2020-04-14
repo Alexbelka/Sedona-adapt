@@ -1,0 +1,31 @@
+.page-footer{
+  min-height: 233px;
+  text-align:center;
+  box-sizing: border-box;
+  padding-top: 41px;
+}
+.page-footer__menu{
+  width:153px;
+  min-height: 48px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__element{
+  width:48px;
+  height: 46px;
+  background-color: rgb(129,179,210);
+  border:1px solid black;
+  list-style: none;
+}
+
+@media(min-width:768px){
+  .page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 60px;
+    padding-right:60px;
+  }
+}

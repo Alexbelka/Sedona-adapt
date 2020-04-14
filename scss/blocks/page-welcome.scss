@@ -1,0 +1,15 @@
+.page-welcome{
+  min-height: 389px;
+  width:100%;
+  background:url('../../img/back-mobile.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+@media(min-width:768px){
+  .page-welcome {
+    min-height: 518px;
+    background: url('../../img/back-desktop.jpg') no-repeat center;
+    background-size: cover;
+  }
+}

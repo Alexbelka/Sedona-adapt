@@ -1,0 +1,29 @@
+.descriptions{
+  min-height:503px;
+}
+
+.menu-descriptions__item{
+  min-height:168px;
+  background-color: rgb(238,238,238);
+  text-align: center;
+  box-sizing:border-box;
+  padding:33px 41px 32px 41px;
+  list-style: none;
+}
+
+.menu-descriptions__item p{
+  margin-top: 22px;
+}
+
+@media(min-width:768px){
+  .descriptions{
+    min-height: 257px;
+  }
+  .menu-descriptions{
+    display: flex;
+  }
+  .menu-description__item{
+    width:33%;
+  }
+}
+

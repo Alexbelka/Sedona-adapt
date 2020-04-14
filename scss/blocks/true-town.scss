@@ -1,0 +1,43 @@
+.true-town{
+  min-height: 471px;
+  text-align: center;
+}
+
+.true-town__text{
+  min-height: 211px;
+  background-color: rgb(129,179,210);
+  box-sizing: border-box;
+  padding:54px 28px 52px 27px;
+  color:rgb(255,255,255);
+}
+
+.true-town__photo{
+  min-height: 260px;
+  background:url('../../img/saloon.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.true-town__content{
+  margin-top: 20px;
+}
+
+@media(min-width:768px){
+  .true-town{
+    min-height: 211px;
+    display: flex;
+  flex-direction: row;
+
+  }
+
+  .true-town__text{
+    width:33%;
+  }
+
+  .true-town__photo{
+    width:66%;
+    background-size: 100%;
+  }
+
+
+}

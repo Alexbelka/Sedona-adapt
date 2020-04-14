@@ -1,0 +1,38 @@
+.devil-bridge{
+  min-height: 451px;
+}
+
+.devil-bridge__text{
+  min-height: 191px;
+  background-color: rgb(129,179,210);
+  color:rgb(255,255,255);
+  text-align: center;
+  padding:45px 31px 42px 30px;
+  box-sizing: border-box;
+}
+
+.devil-bridge p{
+  margin-top: 20px;
+}
+
+.devil-bridge__photo{
+  min-height: 270px;
+  background:url('../../img/devil-bridge.png') no-repeat;
+  background-size:100%;
+  background-position: center;
+}
+
+@media(min-width: 768px){
+  .devil-bridge {
+    min-height:256px;
+    display: flex;
+
+  }
+  .devil-bridge__text{
+    width:66%;
+  }
+  .devil-bridge__photo{
+    min-height: 256px;
+    width:33%;
+  }
+}
