@@ -1,9 +1,29 @@
 .page-welcome{
   min-height: 389px;
   width:100%;
-  background:url('../../img/back-mobile.jpg') no-repeat center;
+  background: url('../../img/back-mobile.jpg') no-repeat center;
   background-size: cover;
+  border-top:1px solid transparent;
+  position: relative;
 }
+
+
+.page-welcome__text{
+  width:(280/320)*100%;
+  min-height: 213px;
+  margin:60px auto 0;
+  background: url("../../img/text-index.png") no-repeat center;
+}
+
+.page-welcome__figure{
+  width: 100%;
+  min-height: 47px;
+  position: absolute;
+  bottom: 0;
+  background:url('../../img/intro-triangle.png') no-repeat 0px -30px ;
+  background-size: 100%;
+}
+
 
 
 @media(min-width:768px){
@@ -12,4 +32,27 @@
     background: url('../../img/back-desktop.jpg') no-repeat center;
     background-size: cover;
   }
+
+  .page-welcome__text{
+    min-height: 350px;
+    background: url("../../img/tablet-text-index.png")no-repeat center;
+  }
+
+  .page-welcome__figure{
+    min-height: 57px;
+    background: url(../../img/tablet-triangle.png) no-repeat center;
+  }
+
+}
+
+@media(min-width: 1200px){
+  .page-welcome__text{
+    min-height: 350px;
+    background: url('../../img/desktop-text-index.png') no-repeat center;
+  }
+  .page-welcome__figure{
+    min-height: 57px;
+    background: url(../../img/desktop-triangle.png) no-repeat center;
+  }
+
 }

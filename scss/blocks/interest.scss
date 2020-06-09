@@ -16,19 +16,38 @@
 }
 
 .interest__button{
-  width: 280px;
+  width: (280/320)*100%;
+  display: block;
+  margin:25px auto;
   background-color: rgb(129,179,210);
   font-size:21px;
   line-height: 26px;
   font-weight:bold;
   color:rgb(255,255,255);
   padding:17px 47px 19px 47px;
-  margin-top: 20px;
+}
+
+.interest__button:hover{
+  background-color:rgb(102,158,192);
+}
+
+.interest__button:active{
+  background-color: rgb(84,150,189);
 }
 
 @media(min-width:768px){
   .interest {
     padding-left: 155px;
     padding-right: 155px;
+  }
+
+  .interest__button{
+    width:(458/768)*100%;
+  }
+}
+
+@media(min-width:1200px){
+  .interest-button{
+    width:(458/1200)*100%;
   }
 }

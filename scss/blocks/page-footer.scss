@@ -12,12 +12,34 @@
   justify-content: space-between;
 }
 
+
 .page-footer__element{
   width:48px;
   height: 46px;
   background-color: rgb(129,179,210);
-  border:1px solid black;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor:pointer;
+}
+
+.page-footer__element:hover{
+background-color: rgb(102,158,192);
+}
+
+.page-footer__element:active{
+  background-color:rgb(84,150,189);
+}
+
+.page-footer__developed p{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-footer__developed svg{
+display: inline-block;
+  vertical-align: middle;
 }
 
 @media(min-width:768px){

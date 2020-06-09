@@ -10,13 +10,15 @@
 </head>
 <body>
 <header class="page-header">
-    <nav class="header-navigation">
+    <nav class="header-navigation header-navigation--opened">
         <ul class="header-navigation__menu">
-            <li class="header-navigation__elem header-navigation__elem--main"><a href="#">главная</a></li>
+            <li class="header-navigation__elem header-navigation__elem--main">
+                <button class="btn--close"></button><a href="#">главная</a></li>
             <li class="header-navigation__elem header-navigation__elem--photo"><a href="#">фото и видео</a></li>
             <li class="header-navigation__elem"><a href="#">форма отзыва</a></li>
             <li class="header-navigation__elem"><a href="#">html academy</a></li>
-            <li class="header-navigation__elem header-navigation__elem--logo">
+            <li class="header-navigation__elem header-navigation__elem--logo header-navigation__elem--active">
+                <button class="btn--open"></button>
                 <div class="item">
                     <!--<img src="img/logotype.png" width="102" height="83" alt="логотип">-->
                 </div>
@@ -25,7 +27,10 @@
     </nav>
 </header>
 <main class="page-main">
-    <section class="page-welcome"></section>
+    <section class="page-welcome">
+        <div class="page-welcome__text"></div>
+        <div class="page-welcome__figure"></div>
+    </section>
     <section class="reasons">
         <h3 class="reasons__town">седона - небольшой
         городок в аризоне заслуживающий большего</h3>
@@ -103,14 +108,45 @@
     <footer class="page-footer">
         <h3>#visitsedona</h3>
         <ul class="page-footer__menu">
-            <li class="page-footer__element"></li>
-            <li class="page-footer__element"></li>
-            <li class="page-footer__element"></li>
+            <li class="page-footer__element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="14" viewBox="0 0 18 14">
+                    <image id="icon-twitter.svg" width="18" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAx0lEQVQokZ2TgQ2CQAxFX5iAERiBERwBN8ANHEEnIE7ACOoEjqAb4Aa6wTeVngYCHPCTSy6X9t/vb4uk1A+Rc5D00h83zysklSHgLimfIKo1jSoQyX/bD5DkERJDkwBvWqRABTRACWT+XjCNB7CN/Wgqm4gaqwgjOvdMXIqNEVlpVy9rLVprZnZl1OTQlMRVnIDnCkWX380Z05U+ZX1FVuduoapjJ743fDbusXYbzNNObmj/nGTD2PR/icyfMjJPtqBGMLzcEh+1hJkcncLv0QAAAABJRU5ErkJggg=="/>
+                </svg>
+            </li>
+            <li class="page-footer__element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="18" viewBox="0 0 9 18">
+                    <image id="icon-facebook.svg" width="9" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAASCAYAAACJgPRIAAAAcElEQVQokdWQ0QmAMAwFT3GAjuIIdSPdQCezI7iBIzhCpJJCDAX98MeDQug7wiOIiH2jiOzisMLsw0KTBeUAAhU6/eorwgIkjFTbkKwUdZMnaEbuJBXhRvsk8FbKnQadV5dNwHZN5pieWLLvOv1TAk4A6G7fKeOqSwAAAABJRU5ErkJggg=="/>
+                </svg>
+            </li>
+            <li class="page-footer__element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
+                    <image id="icon-youtube.svg" width="20" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAAfElEQVQ4jdXSwQ3CQAxE0Q+igJRACVtCWkglUAJUynaQdPCRUXJEawlfmJMP1juMjdrUl78njHaKAbhSkx6gRdgn50osAy7AE9jS4uAUczSiTupDXUeny4Jk4fIOL8m9CbgDt33+mtHbxFFaBjryH3/YC70eYPRUgXZgeQO9yv2EFT7UYgAAAABJRU5ErkJggg=="/>
+                </svg>
+            </li>
         </ul>
         <div class="page-footer__developed">
         <p>разработано</p>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="34" viewBox="0 0 27 34">
+                <image id="htmlacademy.svg" width="27" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAiCAYAAACuoaIwAAAB1klEQVRIia1Wi3GDMAxVOwEjMAIbNCMwAiMwgjdgBI/ACE4nSDoB3YBukJ5zMvci5B/h3ek4sNGTniXBB+3REVHD1vHqF19btoBftj8i+uFnd74Paxs8meObi0J8Fq7EZA/hECP6VjK4w94QIGYcVAgKveDBtls4CU3gwMy08zsLT47PA856IpqPnvFDOTcNLReT37vy1RbKv3HkyLyzCUgGfm743tt4BtkAWUxKFi1n59eXhLRJsg4kc9DcMVxg/ywaP0oWk6wUqIQBJXZkY0ayUjRMFKTtNbJSyYj3mUxAWL07MlsR/QiVmJPaxjIr7RvDRTEnFPHrt1hmBgrDZMhmeKcHpxOT2tyZkdA51TcdNHVwOIKvNVeNiJ6dxPrGwXycgQALDZEkm9gRjiSMFIORFVdNZiErjD5IRtD8mlWRtTANVqi+RZHsbTIH5TyJrMzZZJiFEYPWKf2DplVx0SfGiEmBhSEt1Z9FZOH8cFJokyE3eXZkt8x/hVYgNe88yUZx4FZpYoRhB6lfATnxXwZ2I/qmZD5qwG8ZzlxV4k5ElJqPErJ4XEahDYOQVpuPqQD7yN6kJHIkoSQx6d/6jZeHvShTJJX5IWgNXXOm1QjVVl+tRPQP8mdMQumvJN0AAAAASUVORK5CYII="/>
+            </svg>
         </div>
     </footer>
 </main>
+<script>
+    let nav = document.querySelector(".header-navigation");
+    let open = document.querySelector('.btn--open');
+    let close = document.querySelector('.btn--close');
+
+    close.addEventListener('click',function(){
+       nav.classList.remove('header-navigation--opened');
+       nav.classList.add('header-navigation--closed');
+    });
+
+    open.addEventListener('click',function(){
+       nav.classList.remove('header-navigation--close');
+       nav.classList.add('header-navigation--opened');
+    });
+
+</script>
 </body>
 </html>
