@@ -17,9 +17,9 @@
 
 .devil-bridge__photo{
   min-height: 270px;
-  background:url('../../img/devil-bridge.png') no-repeat;
+  background:url('../../img/devil-bridge.png') no-repeat center;
   background-size:100%;
-  background-position: center;
+
 }
 
 @media(min-width: 768px){
@@ -30,10 +30,10 @@
 
   }
   .devil-bridge__text{
-    width:66%;
+    width:34%;
   }
   .devil-bridge__photo{
     min-height: 256px;
-    width:34%;
+    width:66%;
   }
 }

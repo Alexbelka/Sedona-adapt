@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="inner-form">
+<header class="page-header">
+    <nav class="header-navigation header-navigation--opened">
+        <ul class="header-navigation__menu">
+            <li class="header-navigation__elem header-navigation__elem--main">
+                <button class="btn--close"></button><a href="#">главная</a></li>
+            <li class="header-navigation__elem header-navigation__elem--photo"><a href="#">фото и видео</a></li>
+            <li class="header-navigation__elem"><a href="#">форма отзыва</a></li>
+            <li class="header-navigation__elem"><a href="#">html academy</a></li>
+            <li class="header-navigation__elem header-navigation__elem--logo header-navigation__elem--active">
+                <button class="btn--open"></button>
+                <div class="item">
+                    <!--<img src="img/logotype.png" width="102" height="83" alt="логотип">-->
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="form-main">
+    <section class="page-welcome">
+        <div class="page-welcome__text"></div>
+        <div class="page-welcome__figure"></div>
+    </section>
+    <h3 class="photo-main__title"> Оставьте свой отзыв</h3>
+    <p class="photo-main__text">
+        помогите нашим отелям стать лучше<br>
+        оставьте отзыв о них, а также о<br>
+        посещенных вами<br>
+        достопримечательностях<br>
+    </p>
+    <section class="introduction">
+        <form action="" class="introduction-form">
+            <div class="introduction-form__wrapper introduction-form__wrapper--data">
+            <h2 class="introduction-form__title">
+                Представьтесь:
+            </h2>
+                <ul class="introduction-form__menu introduction-form__wrapper--introduction">
+                    <li class="introduction-form__menu-item">
+                        <label for="name">имя</label>
+                        <input class="introduction-form__input point" placeholder="Петр" id="name" type="text">
+                    </li>
+                    <li class="introduction-form__menu-item">
+                        <label for="suname">фамилия</label>
+                        <input class="introduction-form__input point" placeholder="Иванов" id="suname" type="text">
+                    </li>
+                    <li class="introduction-form__menu-item">
+                        <label for="postname">отчество</label>
+                        <input class="introduction-form__input point" placeholder="Александрович" id="postname" type="text">
+                    </li>
+                </ul>
+            </div>
+            <div class="introduction-form__wrapper introduction-form__wrapper--contacts">
+            <h2 class="introduction-form__title">
+                Контактная информация:
+            </h2>
+                <div class="introduction-form__cage">
+                <label class="introduction-form__label"  for="phone" >контактный телефон:
+                <input class="introduction-form__input introduction-form__input--phone point"  id ="phone" type="text" placeholder="Введите телефон">
+                </label>
+                <label class="introduction-form__label" for="post">электронная почта:
+                <input class="introduction-form__input introduction-form__input--mail point"  id="post" type="text" placeholder="Введите email">
+                </label>
+                </div>
+            </div>
+            <div class="introduction-form__wrapper  introduction-form__wrapper--impact">
+            <h2 class="introduction-form__title">
+                Ваше общее впечатление:
+            </h2>
+                <ul class="introduction-form__range introduction-form__range--impression">
+                    <li class="introduction-form__range-item">
+                        <label class="introduction-form__range--label" for="plus">
+                        <input class="introduction-form__range-input visually-hidden" id="plus" name="radio" type="radio">
+                        <span class="radioButton"></span>
+                        Скорее положительное
+                        </label>
+                    </li>
+                    <li class="introduction-form__range-item">
+                        <label class="introduction-form__range--label" for="minus">
+                        <input id="minus"  name="radio" type="radio" class="introduction-form__range-input visually-hidden">
+                        <span class="radioButton"></span>
+                       Скореее отрицательное
+                        </label>
+                    </li>
+                    <li class="introduction-form__range-item">
+                        <label class="introduction-form__range--label" for="noAnswer">
+                        <input id="noAnswer" name="radio" type="radio" class="introduction-form__range-input visually-hidden">
+                        <span class="radioButton"></span>
+                        Затрудняюсь ответить
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="introduction-form__wrapper introduction-form__wrapper--interests">
+            <h2 class="introduction-form__title">
+               посещаемые <br> достопримечательности:
+            </h2>
+                <ul class="introduction-form__range introduction-form__range--places">
+                    <li class="introduction-form__range-place">
+                        <label class="introduction-form__range--label" for="bridge">
+                        <input id="bridge" type="checkbox" class="visually-hidden">
+                        <span class="checkButton"></span>
+                        Мост дьявола
+                        </label>
+                    </li>
+                    <li class="introduction-form__range-place">
+                        <label class="introduction-form__range--label" for="rock">
+                        <input id="rock" type="checkbox" class="visually-hidden">
+                        <span class="checkButton"></span>
+                      Гора-Колокол
+                        </label>
+                    </li>
+                    <li class="introduction-form__range-place">
+                        <label class="introduction-form__range--label" for="park">
+                        <input id="park" type="checkbox" class="visually-hidden">
+                        <span class="checkButton"></span>
+                        Слайд-парк
+                        </label>
+                    </li>
+                    <li class="introduction-form__range-place">
+                        <label class="introduction-form__range--label" for="red">
+                        <input id="red" type="checkbox" class="visually-hidden">
+                        <span class="checkButton"></span>
+                        Красные скалы
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="introduction-form__wrapper introduction-form__wrapper--emotions">
+            <h2 class="introduction-form__title">
+                опишите свои эмоции:
+            </h2>
+                <label class="visually-hidden" for="submit"></label>
+            <textarea id="submit" class="introduction-form__area"></textarea>
+            </div>
+                <div class="form-submit-wrapper">
+                <input class="form__submit" type="submit" value="отправить отзыв">
+                <p class="form__warning">Обязательные поля</p>
+                </div>
+            </form>
+    </section>
+</main>
+<footer class="page-footer">
+    <h3>#visitsedona</h3>
+    <ul class="page-footer__menu">
+        <li class="page-footer__element">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="14" viewBox="0 0 18 14">
+                <image id="icon-twitter.svg" width="18" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAOCAYAAAAi2ky3AAAAx0lEQVQokZ2TgQ2CQAxFX5iAERiBERwBN8ANHEEnIE7ACOoEjqAb4Aa6wTeVngYCHPCTSy6X9t/vb4uk1A+Rc5D00h83zysklSHgLimfIKo1jSoQyX/bD5DkERJDkwBvWqRABTRACWT+XjCNB7CN/Wgqm4gaqwgjOvdMXIqNEVlpVy9rLVprZnZl1OTQlMRVnIDnCkWX380Z05U+ZX1FVuduoapjJ743fDbusXYbzNNObmj/nGTD2PR/icyfMjJPtqBGMLzcEh+1hJkcncLv0QAAAABJRU5ErkJggg=="/>
+            </svg>
+        </li>
+        <li class="page-footer__element">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9" height="18" viewBox="0 0 9 18">
+                <image id="icon-facebook.svg" width="9" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAASCAYAAACJgPRIAAAAcElEQVQokdWQ0QmAMAwFT3GAjuIIdSPdQCezI7iBIzhCpJJCDAX98MeDQug7wiOIiH2jiOzisMLsw0KTBeUAAhU6/eorwgIkjFTbkKwUdZMnaEbuJBXhRvsk8FbKnQadV5dNwHZN5pieWLLvOv1TAk4A6G7fKeOqSwAAAABJRU5ErkJggg=="/>
+            </svg>
+        </li>
+        <li class="page-footer__element">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
+                <image id="icon-youtube.svg" width="20" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAAfElEQVQ4jdXSwQ3CQAxE0Q+igJRACVtCWkglUAJUynaQdPCRUXJEawlfmJMP1juMjdrUl78njHaKAbhSkx6gRdgn50osAy7AE9jS4uAUczSiTupDXUeny4Jk4fIOL8m9CbgDt33+mtHbxFFaBjryH3/YC70eYPRUgXZgeQO9yv2EFT7UYgAAAABJRU5ErkJggg=="/>
+            </svg>
+        </li>
+    </ul>
+    <div class="page-footer__developed">
+        <p>разработано</p>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="34" viewBox="0 0 27 34">
+            <image id="htmlacademy.svg" width="27" height="34" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAiCAYAAACuoaIwAAAB1klEQVRIia1Wi3GDMAxVOwEjMAIbNCMwAiMwgjdgBI/ACE4nSDoB3YBukJ5zMvci5B/h3ek4sNGTniXBB+3REVHD1vHqF19btoBftj8i+uFnd74Paxs8meObi0J8Fq7EZA/hECP6VjK4w94QIGYcVAgKveDBtls4CU3gwMy08zsLT47PA856IpqPnvFDOTcNLReT37vy1RbKv3HkyLyzCUgGfm743tt4BtkAWUxKFi1n59eXhLRJsg4kc9DcMVxg/ywaP0oWk6wUqIQBJXZkY0ayUjRMFKTtNbJSyYj3mUxAWL07MlsR/QiVmJPaxjIr7RvDRTEnFPHrt1hmBgrDZMhmeKcHpxOT2tyZkdA51TcdNHVwOIKvNVeNiJ6dxPrGwXycgQALDZEkm9gRjiSMFIORFVdNZiErjD5IRtD8mlWRtTANVqi+RZHsbTIH5TyJrMzZZJiFEYPWKf2DplVx0SfGiEmBhSEt1Z9FZOH8cFJokyE3eXZkt8x/hVYgNe88yUZx4FZpYoRhB6lfATnxXwZ2I/qmZD5qwG8ZzlxV4k5ElJqPErJ4XEahDYOQVpuPqQD7yN6kJHIkoSQx6d/6jZeHvShTJJX5IWgNXXOm1QjVVl+tRPQP8mdMQumvJN0AAAAASUVORK5CYII="/>
+        </svg>
+    </div>
+</footer>
+<section class="popup popup--fail">
+    <h2 class="popup__title">
+        Что-то пошло не так!
+    </h2>
+    <p class="popup__text">
+        проверьте поля, выделенные красным,скорее всего вы забыли
+        их заполнить
+    </p>
+    <button class="popup__btn">ОК</button>
+</section>
+<section class="popup popup--success">
+    <h2 class="popup__title">
+        Ваш отзыв отправлен!
+    </h2>
+    <p class="popup__text">
+        спасибо за ваше участие, ваш отзыв уже
+        поступил к нам, и мы опубликуем его на сайте.
+    </p>
+    <button class="popup__btn">ОК</button>
+</section>
+<script src="js/index.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>

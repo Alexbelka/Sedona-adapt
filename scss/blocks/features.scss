@@ -3,10 +3,14 @@
   background-color: rgb(255,255,255);
 }
 
+.features__menu{
+  padding-bottom:20px;
+}
+
 .features__item{
   text-align: left;
   list-style: none;
-  padding-top: 26px;
+  padding:26px 20px 10px;
 }
 
 .features__item h3{

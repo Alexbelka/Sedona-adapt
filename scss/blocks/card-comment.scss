@@ -1,0 +1,167 @@
+.card-comment{
+  width:(280/320)*100%;
+  margin: auto;
+  border-bottom:1px solid rgb(229,229,229);
+  border-top:1px solid rgb(229,229,229);
+  padding-top:22px;
+  position:relative;
+}
+
+.card-comment__item--sunset{
+  background: url('../../jpg/photo-1-mobile.jpg.jpg') no-repeat;
+}
+
+.card-comment__item--plants{
+  background: url('../../jpg/photo-2-mobile.jpg.jpg') no-repeat;
+}
+
+
+.card-comment__item--road{
+  background: url('../../jpg/photo-3-mobile.jpg.jpg') no-repeat;
+}
+
+.card-comment__item--rock{
+  background: url('../../jpg/photo-4-mobile.jpg.jpg') no-repeat;
+}
+
+.card-comment__item-like,
+.card-comment__item-name{
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-comment__item--text{
+  padding:20px 0 20px;
+}
+
+.card-comment__item-like{
+  margin-left: (10/280)*100%;
+  position: relative;
+}
+
+.card-comment__wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.svg{
+  cursor:pointer;
+}
+
+.button{
+  border:none;
+  outline: none;
+}
+
+.stop{}
+
+.card-comment__item-author{
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.card-comment__item--image{
+  min-height: 280px;
+  background-size: 100%;
+}
+
+@media(min-width:768px){
+  .card-comment{
+    width: (324/648)*100%;
+    margin: 0;
+  }
+  .card-comment--firstCard{
+    width: 100%;
+  }
+
+  .card-comment__item--text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.card-comment__item--text{
+  padding-left:20px;
+  padding-right: 20px;
+}
+
+
+  .card-comment--firstCard .card-comment__item--image{
+  min-height: 400px;
+  }
+
+  .card-comment__item--sunset{
+    background: url('../../jpg/photo-1-tablet.jpg.jpg') no-repeat;
+  }
+
+
+  .card-comment__item--plants{
+    background: url('../../jpg/photo-2-tablet.jpg.jpg') no-repeat;
+  }
+
+  .card-comment__item--road{
+    background: url('../../jpg/photo-3-mobile.jpg.jpg') no-repeat;
+  }
+
+  .card-comment__item--image{
+    min-height: 267px;
+    background-size: 100%;
+  }
+}
+
+@media(min-width:1200px){
+  .card-comment{
+    width:(400/1200)*100%;
+    padding: 0;
+    border:none;
+  }
+
+  .card-comment--firstCard{
+    width:100%;
+  }
+
+  .card-comment__item-name,
+  .card-comment__item-author,
+  .card-comment__item-like{
+    color:rgb(255,255,255);
+  }
+
+  .card-comment--firstCard .card-comment__item--image{
+    min-height: 400px;
+  }
+
+  .card-comment__item--sunset{
+    background: url('../../jpg/photo-1-desktop.jpg.jpg') no-repeat;
+    background-size: 100%;
+  }
+
+  .card-comment__item--plants{
+    background: url('../../jpg/photo-2-desktop.jpg.jpg') no-repeat;
+  }
+
+  .card-comment__item--road{
+    background: url('../../jpg/photo-3-desktop.jpg.jpg') no-repeat;
+  }
+
+  .card-comment__item--rock{
+    background: url('../../jpg/photo-4-desktop.jpg.jpg') no-repeat;
+  }
+
+  .card-comment__item--image{
+    min-height: 267px;
+    background-size: 100%;
+  }
+
+  .card-comment__item--text{
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+    width: 100%;
+    background: url('../../img/background.png');
+  }
+
+}

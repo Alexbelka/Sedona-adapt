@@ -1,0 +1,19 @@
+.introduction{
+  width:(280/320)*100%;
+  margin:auto;
+}
+
+
+@media(min-width:768px){
+  .introduction {
+    width: 100%;
+    padding:0 60px 0;
+  }
+}
+
+
+@media(min-width:1200px){
+  .introduction {
+    padding:0 120px 0;
+  }
+}

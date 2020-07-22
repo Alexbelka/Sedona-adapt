@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb3a7d1-ebe7-480e-816a-0b682670871b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/text-index.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/text-index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/devil-bridge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/devil-bridge.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/features.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/header-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/header-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/interest.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/interest.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/page-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/page-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/page-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/page-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/blocks/page-welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/page-welcome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/blocks/true-town.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/true-town.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/blocks/reasons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/blocks/reasons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/globals/scafoldings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/globals/scafoldings.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/icon-burger.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/icon-burger.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/icon-gift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/icon-gift.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/icon-house.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/icon-house.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/icon-twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/icon-twitter.svg" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,28 +39,155 @@
     <expand />
     <select />
   </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="158">
+                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/blocks/header-navigation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="410">
+                  <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/svg/icon-gift.svg" />
+        <option value="$PROJECT_DIR$/svg/icon-house.svg" />
+        <option value="$PROJECT_DIR$/svg/icon-twitter.svg" />
+        <option value="$PROJECT_DIR$/svg/icon-burger.svg" />
+        <option value="$PROJECT_DIR$/scss/blocks/form-main.scss" />
+        <option value="$PROJECT_DIR$/scss/blocks/introduction.scss" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/scss/blocks/page-footer.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/svg/phone.svg" />
+        <option value="$PROJECT_DIR$/svg/mail.svg" />
+        <option value="$PROJECT_DIR$/svg/shapeCheck.svg" />
+        <option value="$PROJECT_DIR$/svg/RadioCheck.svg" />
+        <option value="$PROJECT_DIR$/svg/tick.svg" />
+        <option value="$PROJECT_DIR$/scss/blocks/introduction-form.scss" />
+        <option value="$PROJECT_DIR$/svg/sedona.svg" />
+        <option value="$PROJECT_DIR$/svg/sedona-tablet.svg" />
+        <option value="$PROJECT_DIR$/scss/blocks/page-welcome.scss" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/form.html" />
+        <option value="$PROJECT_DIR$/scss/blocks/popup.scss" />
+        <option value="$PROJECT_DIR$/js/form.js" />
+        <option value="$PROJECT_DIR$/svg/like-icon.svg" />
+        <option value="$PROJECT_DIR$/photo.html" />
+        <option value="$PROJECT_DIR$/scss/blocks/card-comment.scss" />
+        <option value="$PROJECT_DIR$/js/plus.js" />
+        <option value="$PROJECT_DIR$/scss/blocks/header-navigation.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
   <component name="ProjectId" id="1bRU0xUray1PhC8BsQiXfWFRm8b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sedona-adapt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sedona-adapt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sedona-adapt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sedona-adapt" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sedona-adapt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mishka" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79032\Desktop\sedona-adapt\scss\blocks" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="form.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sedona-adapt/form.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.form.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -84,16 +213,339 @@
       <workItem from="1589881785522" duration="5732000" />
       <workItem from="1590004401947" duration="6443000" />
       <workItem from="1590054386440" duration="2619000" />
+      <workItem from="1591997592495" duration="99000" />
+      <workItem from="1593450548381" duration="540000" />
+      <workItem from="1593465922654" duration="2412000" />
+      <workItem from="1593518139126" duration="10854000" />
+      <workItem from="1593530149517" duration="190000" />
+      <workItem from="1593614285372" duration="16849000" />
+      <workItem from="1593633324686" duration="32000" />
+      <workItem from="1593635394550" duration="9920000" />
+      <workItem from="1593682117928" duration="193000" />
+      <workItem from="1593791223457" duration="3386000" />
+      <workItem from="1593859409009" duration="41000" />
+      <workItem from="1594148527541" duration="8356000" />
+      <workItem from="1594292408018" duration="7112000" />
+      <workItem from="1594299847999" duration="58000" />
+      <workItem from="1594637873475" duration="3038000" />
+      <workItem from="1594664352821" duration="5111000" />
+      <workItem from="1594673849980" duration="236000" />
+      <workItem from="1594675827319" duration="686000" />
+      <workItem from="1594720157401" duration="296000" />
+      <workItem from="1594804506122" duration="11003000" />
+      <workItem from="1594838672478" duration="142000" />
+      <workItem from="1594893006937" duration="6812000" />
+      <workItem from="1594906881738" duration="3348000" />
+      <workItem from="1595180753939" duration="374000" />
+      <workItem from="1595274133321" duration="1342000" />
+      <workItem from="1595341649057" duration="3762000" />
+      <workItem from="1595356880074" duration="398000" />
+      <workItem from="1595413823683" duration="8249000" />
+      <workItem from="1595423211574" duration="618000" />
+      <workItem from="1595425493068" duration="329000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45744000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10136157" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1590055509775">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1594299892119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1590055509775" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1152.824@0.0.1366.728" timestamp="1593859443649" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594299892119" />
+    <state width="1328" height="223" key="GridCell.Tab.0.bottom" timestamp="1593633240666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240666" />
+    <state width="1328" height="223" key="GridCell.Tab.0.center" timestamp="1593633240666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240666" />
+    <state width="1328" height="223" key="GridCell.Tab.0.left" timestamp="1593633240666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240666" />
+    <state width="1328" height="223" key="GridCell.Tab.0.right" timestamp="1593633240666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240666" />
+    <state width="1328" height="223" key="GridCell.Tab.1.bottom" timestamp="1593633240667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240667" />
+    <state width="1328" height="223" key="GridCell.Tab.1.center" timestamp="1593633240667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240667" />
+    <state width="1328" height="223" key="GridCell.Tab.1.left" timestamp="1593633240666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240666" />
+    <state width="1328" height="223" key="GridCell.Tab.1.right" timestamp="1593633240667">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240667" />
+    <state width="1328" height="223" key="GridCell.Tab.2.bottom" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.2.center" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.2.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.2.left" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.2.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.2.right" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.3.bottom" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.3.center" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.3.center/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.3.left" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.3.left/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state width="1328" height="223" key="GridCell.Tab.3.right" timestamp="1593633240668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1328" height="223" key="GridCell.Tab.3.right/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1593633240668" />
+    <state x="632" y="182" width="670" height="676" key="search.everywhere.popup" timestamp="1594298836923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="632" y="182" width="670" height="676" key="search.everywhere.popup/0.0.1366.728/1366.0.1280.984@0.0.1366.728" timestamp="1594298836923" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scss/blocks/interest.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/photo-main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/icon-gift.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/icon-house.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/icon-twitter.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/icon-burger.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/icon-facebook.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/checkCheck.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/Shape.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/form-main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/introduction.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="1030" column="1" selection-start-line="1030" selection-start-column="1" selection-end-line="1030" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/phone.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/mail.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/page-footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/RadioCheck.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/tick.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/shapeCheck.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/introduction-form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="149" column="30" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/shapeRadio.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/text-index.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/sedona.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/sedona-tablet.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/page-welcome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
+          <folding>
+            <marker date="1595274529228" expanded="true" signature="258:817" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/popup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="191" column="27" selection-start-line="191" selection-start-column="27" selection-end-line="191" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg/like-icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/card-comment.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/blocks/header-navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -13,10 +13,18 @@
     <nav class="header-navigation header-navigation--opened">
         <ul class="header-navigation__menu">
             <li class="header-navigation__elem header-navigation__elem--main">
-                <button class="btn--close"></button><a href="#">главная</a></li>
-            <li class="header-navigation__elem header-navigation__elem--photo"><a href="#">фото и видео</a></li>
-            <li class="header-navigation__elem"><a href="#">форма отзыва</a></li>
-            <li class="header-navigation__elem"><a href="#">html academy</a></li>
+                <button class="btn--close"></button>
+                <a href="#">главная</a>
+            </li>
+            <li class="header-navigation__elem header-navigation__elem--photo">
+                <a href="#">фото и видео</a>
+            </li>
+            <li class="header-navigation__elem">
+                <a href="#">форма отзыва</a>
+            </li>
+            <li class="header-navigation__elem">
+                <a href="#">html academy</a>
+            </li>
             <li class="header-navigation__elem header-navigation__elem--logo header-navigation__elem--active">
                 <button class="btn--open"></button>
                 <div class="item">
@@ -55,27 +63,27 @@
             <li class="features__item features__item--house">
                 <img src="svg/icon-house.svg" alt="">
                 <h3>жилье</h3>
-                <p>рекомендуем пожить в настоящем мотеле,все как в кино</p>
+                <p>рекомендуем пожить <br> в настоящем мотеле,все как в <br> кино</p>
             </li>
             <li class="features__item features__item--gift">
                 <img src="svg/icon-burger.svg" alt="">
                 <h3>еда</h3>
-                <p>всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                <p>всегда заказывайте <br> фирменный бургер, вы не <br> разочаруетесь!</p>
             </li>
             <li class="features__item features__item--burger">
                 <img src="svg/icon-gift.svg" alt="">
                 <h3>сувениры</h3>
-                <p>не только китайского, но и местного производства!</p>
+                <p>не только китайского, но и <br>местного производства!</p>
             </li>
         </ul>
     </section>
     <section class="devil-bridge">
+        <div class="devil-bridge__photo"></div>
         <div class="devil-bridge__text">
         <h3>там есть мост дьявола</h3>
         <p>#2</p>
         <p>да, по нему можно пройти! если вы осмелитесь,конечно</p>
         </div>
-        <div class="devil-bridge__photo"></div>
     </section>
     <section class="descriptions">
         <ul class="menu-descriptions">
@@ -105,6 +113,7 @@
     <section class="map">
         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0a4739d9a012f360f6797657256894379203ab4e3d5ffe21b44cc045e3821b33&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
     </section>
+</main>
     <footer class="page-footer">
         <h3>#visitsedona</h3>
         <ul class="page-footer__menu">
@@ -131,22 +140,6 @@
             </svg>
         </div>
     </footer>
-</main>
-<script>
-    let nav = document.querySelector(".header-navigation");
-    let open = document.querySelector('.btn--open');
-    let close = document.querySelector('.btn--close');
-
-    close.addEventListener('click',function(){
-       nav.classList.remove('header-navigation--opened');
-       nav.classList.add('header-navigation--closed');
-    });
-
-    open.addEventListener('click',function(){
-       nav.classList.remove('header-navigation--close');
-       nav.classList.add('header-navigation--opened');
-    });
-
-</script>
+<script src="js/index.js"></script>
 </body>
 </html>

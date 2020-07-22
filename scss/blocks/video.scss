@@ -1,0 +1,24 @@
+.video{
+  min-height: 200px;
+  min-width: 320px;
+  background:url('../../jpg/video-mobile.jpg') no-repeat;
+  background-size: 100%;
+}
+
+@media(min-width: 768px){
+  .video{
+    min-width: 648px;
+    min-height:499px;
+    background:url('../../jpg/video-tablet.jpg') no-repeat;
+    background-size: 100%;
+  }
+}
+
+@media(min-width:1200px){
+  .video{
+    min-width: 800px;
+    min-height: 500px;
+    background: url('../../jpg/video-desktop.jpg') no-repeat;
+    margin:auto;
+  }
+}

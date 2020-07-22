@@ -1,0 +1,103 @@
+.photo-card{
+  width: (280/320)*100%;
+  box-shadow: 0 0 1px 1px rgb(229,229,229);
+  padding-top: 22px;
+  padding-bottom:22px;
+  margin:auto;
+}
+
+.photo-cart__item{
+  width:100%;
+}
+
+.photo-card__item-authors h3{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.photo-card__item-likes p,
+.photo-card__item-authors p{
+  text-transform: capitalize;
+  line-height: 24px;
+}
+
+.photo-card__item-likes p{
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.photo-card__item-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-card__item--sunset{
+  min-height: 280px;
+  background: url("../../jpg/photo-1-mobile.jpg.jpg");
+  background-size:100%;
+}
+
+.photo-card__item--plants{
+  min-height: 280px;
+  background: url("../../jpg/photo-2-mobile.jpg.jpg");
+  background-size:100%;
+}
+
+.photo-card__item--road{
+  min-height: 280px;
+  background: url("../../jpg/photo-3-mobile.jpg.jpg");
+  background-size:100%;
+}
+
+.photo-card__item--rock{
+  min-height: 280px;
+  background: url("../../jpg/photo-4-mobile.jpg.jpg");
+  background-size:100%;
+}
+
+
+@media(min-width:768px){
+  .photo-card{
+    width:(324/768)*100%;
+    margin:0;
+  }
+
+  .photo-card__item-wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .photo-card--sunset{
+    width:(648/768)*100%;
+  }
+
+  .photo-card__item--sunset{
+    min-height: 400px;
+    background: url('../../jpg/photo-1-tablet.jpg.jpg');
+    background-size:100%;
+  }
+
+  .photo-card__item--plants{
+    min-height: 267px;
+    min-width:324px;
+    background: url('../../jpg/photo-2-tablet.jpg.jpg') no-repeat;
+    background-size: 100%;
+  }
+
+  .photo-card__item--road{
+    min-height: 267px;
+    min-width:324px;
+    background: url('../../jpg/photo-3-tablet.jpg') no-repeat;
+    background-size: 100%;
+  }
+
+  .photo-card__item--rock{
+    min-height: 267px;
+    min-width:324px;
+    background: url('../../jpg/photo-4-tablet.jpg') no-repeat;
+    background-size: 100%;
+  }
+
+}
